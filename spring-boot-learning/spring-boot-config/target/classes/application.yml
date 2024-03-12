@@ -1,0 +1,19 @@
+family:
+  family-name: "hhj home"
+  father: "jby"
+  mother: "hhj"
+  child: "zh"
+
+person:
+  name: "huanghaojie"
+  age: 21
+  happy: true
+  birthday: 2200/01/02
+  maps: { k1:v1,k2:v2}
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: "zhenghao"
+    age: 21
