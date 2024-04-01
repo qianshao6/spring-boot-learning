@@ -1,13 +1,13 @@
-package top.jiejie.boot.mp;
+package top.jiejie.log;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyBatisPlusApplication {
+public class LogApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MyBatisPlusApplication.class, args);
+        SpringApplication.run(LogApplication.class, args);
     }
 
 }
-

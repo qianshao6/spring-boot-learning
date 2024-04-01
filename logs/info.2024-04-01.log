@@ -1,0 +1,16 @@
+2024-04-01 20:54:39,662 [INFO] [background-preinit] [36mo.h.v.i.u.Version[21][0;39m : HV000001: Hibernate Validator 8.0.1.Final
+2024-04-01 20:54:39,706 [INFO] [main] [36mt.j.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.10 with PID 13148 (D:\webII\spring-boot-learning\spring-boot-log\target\classes started by 13400 in D:\webII\spring-boot-learning)
+2024-04-01 20:54:39,707 [INFO] [main] [36mt.j.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 20:54:40,766 [INFO] [main] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8080 (http)
+2024-04-01 20:54:40,777 [INFO] [main] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-01 20:54:40,781 [INFO] [main] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 20:54:40,782 [INFO] [main] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 20:54:40,852 [INFO] [main] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 20:54:40,853 [INFO] [main] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 1091 ms
+2024-04-01 20:54:41,409 [INFO] [main] [36mo.s.b.a.e.w.EndpointLinksResolver[58][0;39m : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-01 20:54:41,444 [INFO] [main] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-01 20:54:41,470 [INFO] [main] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8080 (http) with context path ''
+2024-04-01 20:54:41,498 [INFO] [main] [36mt.j.l.LogApplication[56][0;39m : Started LogApplication in 2.427 seconds (process running for 3.043)
+2024-04-01 20:54:41,827 [INFO] [RMI TCP Connection(3)-192.168.121.1] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01 20:54:41,827 [INFO] [RMI TCP Connection(3)-192.168.121.1] [36mo.s.w.s.DispatcherServlet[532][0;39m : Initializing Servlet 'dispatcherServlet'
+2024-04-01 20:54:41,829 [INFO] [RMI TCP Connection(3)-192.168.121.1] [36mo.s.w.s.DispatcherServlet[554][0;39m : Completed initialization in 2 ms

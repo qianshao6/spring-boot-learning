@@ -1,10 +1,10 @@
-package top.jiejie.springbootmp;
+package top.jiejie.springbootlog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootMpApplicationTests {
+class SpringBootLogApplicationTests {
 
     @Test
     void contextLoads() {
