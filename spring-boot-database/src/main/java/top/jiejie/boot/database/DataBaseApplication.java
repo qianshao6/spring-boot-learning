@@ -1,12 +1,14 @@
-package top.jiejie.boot.template;
+package top.jiejie.boot.database;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class TemplateApplication {
+public class DataBaseApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TemplateApplication.class,args);
+        SpringApplication.run(DataBaseApplication.class,args);
     }
 }
+
+
