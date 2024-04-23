@@ -18,6 +18,9 @@
         <module>spring-boot-config</module>
         <module>spring-boot-template</module>
         <module>spring-boot-database</module>
+        <module>spring-boot-exception</module>
+        <module>spring-boot-file</module>
+        <module>spring-boot-cache</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
