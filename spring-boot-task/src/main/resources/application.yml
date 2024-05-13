@@ -1,0 +1,26 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1340037298@qq.com
+    password: ywgornqnrnoqbagh
+    protocol: smtp
+    port: 465 # 注意：port应该直接在mail下，而不是在properties.mail.smtp下
+    properties:
+      mail:
+        smtp:
+          auth: true # 这里应该是auth，而不是outh
+          starttls:
+            enable: false # 通常465端口使用SSL，不需要STARTTLS
+            required: false
+          ssl:
+            enable: true # 或者使用spring.mail.properties.mail.smtp.ssl.enable，但这里的方式更简洁
+    default-encoding: utf-8
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+  quartz:
+    job-store-type: JDBC #数据库存储quartz任务配置
+    jdbc:
+      initialize-schema: always #自动初始化表结构，第一次启动的时候这里写always

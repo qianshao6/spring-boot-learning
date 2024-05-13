@@ -1,0 +1,39 @@
+server:
+  port: 8080
+  servlet:
+  context-path: /
+spring:
+  servlet:
+  multipart:
+  max-file-size: 10485760
+  max-request-size: 10485760
+  application:
+  name: interceptor-demo
+# springdoc-openapi
+springdoc:
+  swagger-ui:
+  path: /swagger-ui.html
+  tags-sorter: alpha
+  operations-sorter: order
+  api-docs:
+  path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+  display-name: '接⼝⽂档'
+  paths-to-match: '/**'
+  packages-to-scan: top.jiejie.controller
+# knife4j
+knife4j:
+  enable: true
+  setting:
+  language: zh_cn
+  basic:
+  enable: true
+  username: admin
+  password: 123456
+aliyun:
+  oss:
+  endpoint: oss-cn-hangzhou.aliyuncs.com
+  accessKeyId:  LTAI5tFKJZGQ5QcEvYwhwUxG
+  accessKeySecret: eyldngGplz2sm52ENmUSli40CtiaHU
+  bucketName: hhj-oss

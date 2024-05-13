@@ -1,0 +1,17 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1340037298@qq.com
+    password: ywgornqnrnoqbagh
+    protocol: smtp
+    port: 465 # 注意：port应该直接在mail下，而不是在properties.mail.smtp下
+    properties:
+      mail:
+        smtp:
+          auth: true # 这里应该是auth，而不是outh
+          starttls:
+            enable: false # 通常465端口使用SSL，不需要STARTTLS
+            required: false
+          ssl:
+            enable: true # 或者使用spring.mail.properties.mail.smtp.ssl.enable，但这里的方式更简洁
+    default-encoding: utf-8
